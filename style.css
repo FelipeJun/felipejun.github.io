@@ -1,0 +1,181 @@
+body{
+	background-color:#5f6675;
+	font-family: Candara, Helvetica, sans-serif;
+	margin: 0;
+
+}
+#header{
+    height: 140px;
+    padding-top: 10px;
+
+}
+#logo{
+	width: 350px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -175px; /* aq tem q ser a metade do width */
+}
+#logoimg{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#titulologo{
+    float: left;
+    color:#4e78cc;
+    font-size: 40px;
+    margin: 0;
+    line-height: 100px; /*o mesmo do height do logo */
+
+}
+
+#menu{
+	height: 30px;
+    background-color: #3f4042;
+    margin-top:10px;
+
+}
+.listamenu{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 0px;
+    padding-left: 10px;
+    list-style-type: none;
+
+}
+.listamenu li{
+    display: inline-block;
+    font-size: 23px;
+    list-style-type: none;
+}
+.listamenu li a{
+    text-decoration: none;
+    height: 50px;
+    line-height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.listamenu li a:link,
+.listamenu li a:visited{
+    color: white;
+}
+.listamenu li a:hover{
+    background-color: white;
+    color: #000000 ;
+    list-style-type: none;
+}
+.listamenu li ul{
+    position:absolute; 
+    top:25px; 
+    left:20;
+    background-color:#3f4042; 
+    display: none;
+    z-index: 9999;
+    list-style-type: none;
+}
+.listamenu li:hover ul, .listamenu li.over ul{display:block;}
+
+.listamenu li ul li{
+    border:1px solid #c0c0c0; 
+    display:block; 
+    width:150px;
+    list-style-type: none;
+}
+
+.menuatual{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+#content{
+    background-color: white;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+    min-height: calc(100% - 145px);
+    position: absolute;
+}
+
+#bannerpromo{
+	background-image: url('imagens/logo.jpg');
+    height: 300px;
+    color: white;
+    text-shadow:2px 2px #C1CDCD;
+}
+
+#bannerpromocaoh1{
+    margin:0px;
+    font-size: 64px;
+    padding-left: 20px;
+    position:absolute;
+}
+#bannerpromocaoh2{
+    margin:0px;
+    font-size: 48px;
+    position: relative;
+    left: 550px;
+    padding-top: 235px;
+    width: 500px;
+}
+#tituloconteudo{
+    color: #0d0d0d;
+    text-align: center;
+    margin-bottom:20px;
+}
+#areaGrid table{
+    border-spacing: 25px;
+    text-align: center;
+    border-collapse: separate;
+    padding-left: 50px;
+
+}
+#areaGrid td{
+    color: #0d0d0d;
+    font-size: 20px;
+    width: 250px;
+
+}
+#areaGrid img{
+    width: 150px;
+    height: 190px;
+    margin-top: 7px;
+    border: 2px solid #0d0d0d;
+    background-color:#708090;
+}
+#areaGrid p{
+    margin: 0;
+}
+.tituloproduto{
+    font-weight: bold;
+}
+#sobre {
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    color: black;
+    line-height: 25px;
+    font-size: 17px;
+}
+#contato{
+    padding-top: 40px; 
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    color: black;
+    line-height: 25px;
+    font-size: 17px;
+}
+#contato img{
+    height: 200px;
+    width: 200px;
+}
